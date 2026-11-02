@@ -3,11 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vritti Garg - Portfolio</title>
+<title>Vritti Garg - Systems Dashboard</title>
 <meta name="description" content="Vritti Garg - Creative technologist & cybersecurity builder. Portfolio dashboard.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="profile.jpg?v=2">
+<link rel="shortcut icon" href="profile.jpg?v=2">
+<link rel="apple-touch-icon" href="profile.jpg?v=2">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -43,12 +46,20 @@
 
   <!-- ===== DASHBOARD / HERO ===== -->
   <section class="dashboard" id="dashboard">
-    <div class="dashboard-grid" aria-hidden="true"></div>
-
     <div class="dashboard-top reveal">
-      <p class="eyebrow mono">SYSTEM ONLINE // FINAL YEAR B.TECH CSE - CYBER SECURITY</p>
-      <h1 class="dashboard-name">VRITTI GARG</h1>
-      <p class="dashboard-role mono">currently running: <span id="typed-role" class="typed-role"></span><span class="typed-cursor" aria-hidden="true"></span></p>
+      <div class="dashboard-top-text">
+        <p class="eyebrow mono">SYSTEM ONLINE // FINAL YEAR B.TECH CSE - CYBER SECURITY</p>
+        <h1 class="dashboard-name">VRITTI GARG</h1>
+        <p class="dashboard-role mono">currently running: <span id="typed-role" class="typed-role"></span><span class="typed-cursor" aria-hidden="true"></span></p>
+      </div>
+
+      <div class="profile-orbit">
+        <div class="profile-photo">
+          <span class="profile-fallback" aria-hidden="true">VG</span>
+          <img src="profile.jpg" alt="Portrait of Vritti Garg" onerror="this.remove()">
+        </div>
+        <span class="profile-status mono"><span class="status-light status-light--green"></span>ONLINE</span>
+      </div>
     </div>
 
     <div class="mode-select reveal">
@@ -58,7 +69,7 @@
           <span class="status-light status-light--violet"></span>
         </div>
         <h2>Access Creative Ops</h2>
-        <p><span class="kw kw--violet">Brand identity</span>, social presence & digital storytelling for artists and events.</p>
+        <p><span class="kw kw--violet">Brand identity</span> & social storytelling for artists and events.</p>
         <span class="mode-card-cta mono">enter module →</span>
       </a>
 
@@ -68,7 +79,7 @@
           <span class="status-light status-light--green"></span>
         </div>
         <h2>Access Security Ops</h2>
-        <p><span class="kw kw--green">Threat triage</span> secure development & community-scale cyber education. </p>
+        <p><span class="kw kw--green">Threat triage</span> & secure development, at community scale.</p>
         <span class="mode-card-cta mono">enter module →</span>
       </a>
     </div>
@@ -108,10 +119,10 @@
           <span class="file-icon" aria-hidden="true">◆</span>
           <span class="file-meta">
             <span class="file-name mono">artist-site<span class="file-ext">.creative</span></span>
-            <span class="file-brief"><span class="kw kw--violet">Coordinated</span> between the artist and developer, translating ideas into clear requirements and guiding the project from concept to launch.</span>
+            <span class="file-brief">A <span class="kw kw--violet">full website</span> built for an independent artist's portfolio.</span>
           </span>
-          <span class="file-status mono">ONGOING</span>
-          <span class="file-chevron" aria-hidden="true">></span>
+          <span class="file-status mono">LIVE</span>
+          <span class="file-chevron" aria-hidden="true">▸</span>
         </button>
         <div class="file-body">
           <div class="file-body-inner">
@@ -119,11 +130,11 @@
             <div class="case-detail-grid">
               <div>
                 <span class="case-detail-label mono">GOAL</span>
-                <p>Bridge the gap between <span class="kw kw--violet">creative vision</span> and <span class="kw kw--violet">technical execution</span> while ensuring the artist's requirements were fully met.</p>
+                <p>Give the artist a <span class="kw kw--violet">professional, ownable home</span> for their work, beyond social platforms.</p>
               </div>
               <div>
                 <span class="case-detail-label mono">OUTCOME</span>
-                <p>A website that reflects the artist's vision through effective collaboration, planning, and technical coordination.</p>
+                <p>A cohesive site reflecting the artist's <span class="kw kw--violet">visual identity</span>, easy to browse and share.</p>
               </div>
             </div>
             <a href="https://github.com/shreyagg304/sarika-garg-portfolio" target="_blank" rel="noopener" class="pill pill--link mono">↗ view repo</a>
@@ -136,10 +147,10 @@
           <span class="file-icon" aria-hidden="true">◆</span>
           <span class="file-meta">
             <span class="file-name mono">artist-social<span class="file-ext">.creative</span></span>
-            <span class="file-brief"><span class="kw kw--violet">Social media </span>managed and grew the artist's online presence across social platforms; content planning, posting cadence, and audience engagement.</span>
+            <span class="file-brief"><span class="kw kw--violet">Social media management</span> for the same artist, ongoing.</span>
           </span>
           <span class="file-status mono">ONGOING</span>
-          <span class="file-chevron" aria-hidden="true">></span>
+          <span class="file-chevron" aria-hidden="true">▸</span>
         </button>
         <div class="file-body">
           <div class="file-body-inner">
@@ -147,11 +158,11 @@
             <div class="case-detail-grid">
               <div>
                 <span class="case-detail-label mono">GOAL</span>
-                <p>Build a <span class="kw kw--violet">consistent, recognizable presence</span> that reflects the artist's voice and grows real audience connection.</p>
+                <p>Build a <span class="kw kw--violet">consistent, recognizable presence</span> that grows real audience connection.</p>
               </div>
               <div>
                 <span class="case-detail-label mono">OUTCOME</span>
-                <p>Steady <span class="kw kw--violet">content rhythm</span> and stronger engagement across the artist's channels.</p>
+                <p>Steady <span class="kw kw--violet">content rhythm</span> and stronger engagement across channels.</p>
               </div>
             </div>
           </div>
@@ -163,10 +174,10 @@
           <span class="file-icon" aria-hidden="true">◆</span>
           <span class="file-meta">
             <span class="file-name mono">craccon<span class="file-ext">.creative</span></span>
-            <span class="file-brief">Handled the official social media for <span class="kw kw--violet">CRACCON</span>, an international-level conference; coordinating announcements, coverage and audience communication</span>
+            <span class="file-brief">Official social media for <span class="kw kw--violet">CRACCON</span>, an international conference.</span>
           </span>
           <span class="file-status mono">2025 · ~10 MO</span>
-          <span class="file-chevron" aria-hidden="true">></span>
+          <span class="file-chevron" aria-hidden="true">▸</span>
         </button>
         <div class="file-body">
           <div class="file-body-inner">
@@ -174,7 +185,7 @@
             <div class="case-detail-grid">
               <div>
                 <span class="case-detail-label mono">GOAL</span>
-                <p>Keep an <span class="kw kw--violet">international audience</span> informed  and engaged before, during and after the event.</p>
+                <p>Keep an <span class="kw kw--violet">international audience</span> informed before, during and after the event.</p>
               </div>
               <div>
                 <span class="case-detail-label mono">OUTCOME</span>
@@ -212,11 +223,10 @@
           <span class="file-icon" aria-hidden="true">▣</span>
           <span class="file-meta">
             <span class="file-name mono">phishguard<span class="file-ext">.sec</span></span>
-            <span class="file-brief"><span class="kw kw--green">AI agent</span> for employee-reported phishing triage and awareness coaching, designed to speed up how organizations respond to reported phishing emails.</span>
-
+            <span class="file-brief"><span class="kw kw--green">AI agent</span> that triages phishing reports & coaches employees.</span>
           </span>
           <span class="file-status mono">BUILD</span>
-          <span class="file-chevron" aria-hidden="true">></span>
+          <span class="file-chevron" aria-hidden="true">▸</span>
         </button>
         <div class="file-body">
           <div class="file-body-inner">
@@ -224,15 +234,15 @@
             <div class="threat-flow">
               <div class="threat-step">
                 <span class="threat-label mono">ISSUE</span>
-                <p>Employee-reported phishing emails pile up faster than security teams can <span class="kw kw--green">manually triage</span> , delaying response and coaching.</p>
+                <p>Reported phishing emails pile up faster than teams can <span class="kw kw--green">manually triage</span> them.</p>
               </div>
               <div class="threat-step">
                 <span class="threat-label mono">APPROACH</span>
-                <p>Built an AI agent to automatically assess reported emails, flag genuine threats, and generate <span class="kw kw--green">tailored awareness coaching</span>  for employees.</p>
+                <p>An AI agent that auto-assesses reports, flags real threats, and generates <span class="kw kw--green">tailored coaching</span>.</p>
               </div>
               <div class="threat-step">
                 <span class="threat-label mono">RESULT</span>
-                <p>Faster triage cycle and a coaching layer that turns every report into a <span class="kw kw--green">learning moment</span>, not just a ticket.</p>
+                <p>Faster triage, and every report becomes a <span class="kw kw--green">learning moment</span>.</p>
               </div>
             </div>
             <div class="tag-row">
@@ -250,10 +260,10 @@
           <span class="file-icon" aria-hidden="true">▣</span>
           <span class="file-meta">
             <span class="file-name mono">secure-code<span class="file-ext">.sec</span></span>
-            <span class="file-brief">A tool that <span class="kw kw--green">analyzes Python code</span> and surfaces secure-coding issues, helping developers catch vulnerabilities earlier in the workflow. </span>
+            <span class="file-brief">A <span class="kw kw--green">Python tool</span> that flags insecure code before it ships.</span>
           </span>
           <span class="file-status mono">BUILD</span>
-          <span class="file-chevron" aria-hidden="true">></span>
+          <span class="file-chevron" aria-hidden="true">▸</span>
         </button>
         <div class="file-body">
           <div class="file-body-inner">
@@ -261,15 +271,15 @@
             <div class="threat-flow">
               <div class="threat-step">
                 <span class="threat-label mono">ISSUE</span>
-                <p>Insecure coding patterns often go unnoticed until much later in development, when they're expensive to fix.</p>
+                <p>Insecure patterns often surface late, when they're expensive to fix.</p>
               </div>
               <div class="threat-step">
                 <span class="threat-label mono">APPROACH</span>
-                <p>Built an assistant that reviews <span class="kw kw--green">Python code</span> for common security anti-patterns and suggests safer alternatives.</p>
+                <p>Reviews <span class="kw kw--green">Python code</span> for common anti-patterns and suggests safer fixes.</p>
               </div>
               <div class="threat-step">
                 <span class="threat-label mono">RESULT</span>
-                <p>Earlier detection of risky code, <span class="kw kw--green">security shifted left</span> into the development process itself.</p>
+                <p>Earlier detection — <span class="kw kw--green">security shifted left</span> into development itself.</p>
               </div>
             </div>
             <div class="tag-row">
@@ -286,10 +296,10 @@
           <span class="file-icon" aria-hidden="true">▣</span>
           <span class="file-meta">
             <span class="file-name mono">cyberzee<span class="file-ext">.sec</span></span>
-            <span class="file-brief">Played a vital role in Cyberzee (the cybersecurity society of her university) <span class="kw kw--green">spanning outreach, education, and event operations.</span></span>
+            <span class="file-brief">Core team — <span class="kw kw--green">150+ students trained</span>, CTFs run, outreach led.</span>
           </span>
           <span class="file-status mono">ACTIVE</span>
-          <span class="file-chevron" aria-hidden="true">></span>
+          <span class="file-chevron" aria-hidden="true">▸</span>
         </button>
         <div class="file-body">
           <div class="file-body-inner">
@@ -297,15 +307,15 @@
             <div class="threat-flow">
               <div class="threat-step">
                 <span class="threat-label mono">EDUCATION</span>
-                <p>Delivered sessions to <span class="kw kw--green">150+ students</span> on OSINT, digital forensics, and related topics; helped organize hands-on workshops.</p>
+                <p>Delivered sessions to <span class="kw kw--green">150+ students</span> on OSINT & digital forensics.</p>
               </div>
               <div class="threat-step">
                 <span class="threat-label mono">EVENTS</span>
-                <p>Organized <span class="kw kw--green">CTFs</span>(Capture the Flag competitions) and a <span class="kw kw--green">bug bounty</span> event for the student community with 200+ participants.</p>
+                <p>Organized <span class="kw kw--green">CTFs</span> and a bug bounty event for the student community.</p>
               </div>
               <div class="threat-step">
                 <span class="threat-label mono">OUTREACH</span>
-                <p>Led outreach efforts, sponsorships and collaborations, and maintained the society's online presence.</p>
+                <p>Led sponsorships and collaborations for the society.</p>
               </div>
             </div>
             <div class="tag-row">
@@ -322,10 +332,10 @@
           <span class="file-icon" aria-hidden="true">▣</span>
           <span class="file-meta">
             <span class="file-name mono">sim-log<span class="file-ext">.sec</span></span>
-            <span class="file-brief">Completed 3 job simulations ( <span class="kw kw--green">Deloitte, Mastercard, Tata</span> ) applying core security concepts across incident response, awareness training and identity management.</span>
+            <span class="file-brief">3 job simulations — <span class="kw kw--green">Deloitte, Mastercard, Tata</span>.</span>
           </span>
           <span class="file-status mono">COMPLETE</span>
-          <span class="file-chevron" aria-hidden="true">></span>
+          <span class="file-chevron" aria-hidden="true">▸</span>
         </button>
         <div class="file-body">
           <div class="file-body-inner">
@@ -333,15 +343,15 @@
             <div class="threat-flow">
               <div class="threat-step">
                 <span class="threat-label mono">PROGRAMS</span>
-                <p><span class="kw kw--green">Deloitte Australia</span> Cyber Job Simulation, <span class="kw kw--green">Mastercard</span> Cybersecurity Virtual Experience, <span class="kw kw--green">Tata</span> Cybersecurity Analyst (IAM) Simulation - all via Forage.</p>
+                <p><span class="kw kw--green">Deloitte Australia</span> Cyber Job Simulation, <span class="kw kw--green">Mastercard</span> Cybersecurity Virtual Experience, <span class="kw kw--green">Tata</span> Cybersecurity Analyst (IAM) Simulation — all via Forage.</p>
               </div>
               <div class="threat-step">
                 <span class="threat-label mono">SCOPE</span>
-                <p>Investigated web activity logs during a simulated breach, ran phishing threat identification and security-awareness training design for a Mastercard business unit, and delivered an <span class="kw kw--green">IAM strategy</span> and solution design for a TCS client.</p>
+                <p>Log analysis on a simulated breach, phishing-awareness training design, and an <span class="kw kw--green">IAM strategy</span> for a TCS client.</p>
               </div>
               <div class="threat-step">
                 <span class="threat-label mono">RESULT</span>
-                <p>Practical, scenario-based exposure to log analysis, security awareness and identity management workflows.</p>
+                <p>Hands-on exposure to log analysis, security awareness and IAM workflows.</p>
               </div>
             </div>
             <div class="tag-row">
@@ -388,7 +398,7 @@
         <div class="timeline-content">
           <span class="timeline-date mono">Jan 2026 - Feb 2026</span>
           <h3>Software Developer Intern</h3>
-          <p><span class="kw kw--cyan">Triazine Software Pvt. Ltd.</span> - built web features with <span class="kw kw--cyan">Django & Python</span>.</p>
+          <p><span class="kw kw--cyan">Triazine Software Pvt. Ltd.</span> — built web features with <span class="kw kw--cyan">Django & Python</span>.</p>
         </div>
       </div>
 
@@ -397,7 +407,7 @@
         <div class="timeline-content">
           <span class="timeline-date mono">Jun 2025 - Jun 2026</span>
           <h3>Cybersecurity Internship Simulations</h3>
-          <p><span class="kw kw--cyan">3 Forage</span> job simulations - <span class="kw kw--cyan">Deloitte, Mastercard & Tata</span>; covering log analysis, security awareness and IAM.</p>
+          <p>Three <span class="kw kw--cyan">Forage</span> job simulations — <span class="kw kw--cyan">Deloitte, Mastercard & Tata</span>. Full details in Security Ops.</p>
         </div>
       </div>
 
@@ -415,7 +425,7 @@
         <div class="timeline-content">
           <span class="timeline-date mono">2024 - Present</span>
           <h3>Core Team - Cyberzee</h3>
-          <p>Cybersecurity society of SRM University. Delivered sessions to <span class="kw kw--cyan">150+ students</span>, organized CTFs and a bug bounty event, and led sponsorship & collaboration outreach.</p>
+          <p>University cybersecurity society — <span class="kw kw--cyan">150+ students trained</span>, CTFs &amp; outreach led.</p>
         </div>
       </div>
 
